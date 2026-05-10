@@ -1,0 +1,55 @@
+.big-logo{
+    width: max-content;
+    height: 90px;
+    font-Size: 88px;
+    background: linear-gradient(to right,aquamarine 20%,rgb(138, 228, 252) 60%);
+    background-clip: text;
+    color: transparent;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color:black;
+    
+}
+
+.ani-logo{
+    width: 300px;
+    height: 300px;
+   
+    border-radius: 150px;
+    background: linear-gradient(to right,aquamarine 33%,rgb(138, 228, 252) 66%,rgb(192, 117, 189) 100% );
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate-border 10s linear 0s infinite;
+}
+
+
+@keyframes rotate-border{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.wrapper{
+    height: 280px;
+    width: 280px;
+    border-radius: 140px;
+  
+    
+}
+
+.main-wapper{
+    height: 300px;
+   
+    right:200px;
+    width: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
